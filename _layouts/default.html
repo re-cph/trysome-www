@@ -40,8 +40,14 @@
     <!-- QUICK POC -->
     <script type="text/javascript">
       $(function() {
+        // GOTO ABOUT
         $("#goto-about").on('click', function() {
-          $(window).scrollTo($("#about"), 1000);
+          $(window).scrollTo($("#about").offset().top - 110, 1000);
+        });
+
+        // GOTO SIGNUP
+        $("#goto-signup").on('click', function() {
+          $(window).scrollTo($("#signup").offset().top - 110, 1500);
         });
       });
     </script>
