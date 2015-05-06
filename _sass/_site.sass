@@ -1,14 +1,17 @@
 h1, h2, h3, h4, h5, h6
   color: #1F1F1F
+  &.bright
+    color: #dfdfdf
 
 p
-  font-size: 16px
+  font-size: 14px
   margin: 0 0 15px
   line-height: 1.5
 
 .logo
-  width: auto
-
+  margin-top: 28px
+  width: 250px
+  transition: all 0.5s ease-out 0s
 
 .shrink
   .for-sticky
@@ -16,6 +19,7 @@ p
 
     .logo
       margin-top: 0
+      width: 150px
 
 .head-title,
 .sub-title
@@ -35,31 +39,28 @@ p
   h3
     padding: 20px
     text-transform: none
-    font-size: 50px
-    font-weight: 200
+    font-size: 30px
+    line-height: 30px
+    font-weight: 400
     letter-spacing: 0.04em
     color: #1F1F1F
 
   p
+    font-weight: 200
     color: #1F1F1F
-    font-size: 18px
-    font-weight: 400
     padding: 0 20px 20px 20px
-    letter-spacing: auto
+    letter-spacing: 1px
+    text-transform: none
+    &.highlight
+      font-size: 18px
+      font-weight: 200
+  .photo-credit
+    position: absolute
+    right: 15px
+    bottom: 15px
 
-  .signup-wrapper
-    padding: 25px 0
-    .button
-      border: 1px solid #1F1F1F
-      color: #1F1F1F
-      padding: 10px 20px
-      border-radius: 5px
-      background-color: #fff
-      font-size: 20px
-      font-weight: bold
-      &:hover
-        background-color: #fafafa
-.bright-bg
+.bright-bg,
+.grey-bg
   a
     color: #222
 
@@ -71,6 +72,7 @@ p
   .head-title,
   p
     color: #FFF
+
 
 // @include media-max($screen-lg-min)
 //   //Green
@@ -107,13 +109,17 @@ p
         text-transform: uppercase
 
 .bg1 .para-img
-  background-image: url("../images/slider/1.jpg")
+  background-image: url("../images/bg/1.jpg")
 
-.bg2 .para-img
-  background-image: url("../images/bg/grafitti.jpg")
+// .bg2 .para-img
+//   background-image: url("../images/bg/grafitti.jpg")
 
-.contact-btn
-  border: 1px solid #eee
+.btn-primary
+  background-color: #008040
+  border-color: darken(#008040, 10%)
+  &:hover
+    background-color: darken(#008040, 10%)
+    border-color: darken(#008040, 15%)
 
 span.break-mobile-only
   display: block
