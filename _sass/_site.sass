@@ -33,9 +33,6 @@ p
   // background-color: rgba(20, 20, 20, 0.4)
 
 .caption-box
-  h3, h4, p, .signup-wrapper
-    background-color: rgba(255, 255, 255, 0.75)
-    margin: 0
   h3
     padding: 20px
     text-transform: none
@@ -51,6 +48,7 @@ p
     padding: 0 20px 20px 20px
     letter-spacing: 1px
     text-transform: none
+    margin: auto
     &.highlight
       font-size: 18px
       font-weight: 200
@@ -66,6 +64,9 @@ p
 
   .liner
     background-color: #1F1F1F
+
+.trans-bg
+  background-color: rgba(255, 255, 255, 0.75)
 
 .dark-bg
   background-color: #1F1F1F
@@ -88,16 +89,10 @@ p
 //       height: 140px
 //     p
 //       height: 90px
-// @include media-max($screen-sm-min)
-//   //Orange
-//   .caption-box
-//     h3
-//       height: 115px
-//       font-size: 25px
-//       margin-top: 20px
-//     p
-//       margin-bottom: 20px
-//       height: 130px
+@include media-max($screen-sm-min)
+  .logo
+    width: 150px
+    margin-top: 10px
 
 .bg
   .big-text
@@ -124,11 +119,11 @@ p
 .video-item
   cursor: pointer
   position: relative
+  text-align: center
   .player-icon
     position: absolute
     top: 25px
-    left: 50%
-    margin-left: -10px
+    left: 90px
     color: #fdfdfd
     text-shadow: 0px 0px 3px #333
 
