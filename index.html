@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<!-- <div id="resDebug"></div> -->
+<div id="resDebug" style="display: none"></div>
 
 <!--HOME START-->
 <div id="home">
@@ -12,9 +12,12 @@ layout: default
       <div class="caption-box">
         <div class="container">
           <div class="row">
-            <div class="col-md-8 col-md-offset-2">
+            <div class="col-md-12">
               <div class="liner"></div>
-              <div class=""> <!-- trans-bg -->
+            </div>
+            <div class="center-block round-thing trans-bg hidden-xs"><!-- round thing --></div>
+            <div class="caption-content col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3 trans-bg-sm">
+              <div>
                 <h3>Try before you buy</h3> <!-- Open your mind - close your wallet -->
                 <p class="highlight">
                   <strong>… it's free!</strong>
@@ -23,13 +26,14 @@ layout: default
                 <!-- <p class="semi-highlight">Select what you want to try and get it </p> -->
 
                 <p>
-                  <a href="" class="btn btn-primary btn-lg upper">Get notified</a><br>
+                  <a href="#" id="goto-signup" class="btn btn-primary btn-lg upper">Get notified</a><br>
                   ...when we launch our Kickstarter campaign
                 </p>
 
 
                 <p class="highlight">Go ahead, Trysome!</p>
               </div>
+
             </div>
             <div class="col-md-12">
               <div class="liner"></div>
@@ -56,66 +60,43 @@ layout: default
         as we build the Trysome universe.</p>
         <div class="liner"></div>
 
-        <div id="form-wrapper">
-         <div id="form-inner">
-           <div id="ErrResults"></div>
-           <div id="MainResult"></div>
-           <div id="MainContent">
-             <form id="MyContactForm" name="MyContactForm" method="post">
-                <div class="row">
-                  <div class="col-xs-7 col-xs-offset-1">
-                    <input type="email" name="email" id="email" placeholder="Your email ...">
-                    <small>Don't worry we hate spam too. We wouldn't do that to you.</small>
-                  </div>
-                  <div class="col-xs-3">
-                    <a href="#" class="btn btn-primary btn-lg btn-block">Sign up</a>
-                  </div>
-                  <label for="email" id="emailLb">
-                   <span class="error error1">*Email is mandatory</span>
-                   <span class="error error2">*Email is not valid</span>
-                  </label>
-                </div>
-             </form>
-           </div>
-         </div>
-       </div>
+        <!-- Begin MailChimp Signup Form -->
+        <div id="mc_embed_signup">
+          <form action="//gotrysome.us10.list-manage.com/subscribe/post?u=cb2f7389d977d4d8f30d06186&amp;id=a0b7c61d62" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+              <div class="mc-field-group col-sm-5 col-sm-offset-2 col-xs-7">
+                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email">
+              </div>
+              <!--
+              <div class="mc-field-group">
+                <label for="mce-FNAME">First Name </label>
+                <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+              </div>
+              <div class="mc-field-group">
+                <label for="mce-LNAME">Last Name </label>
+                <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+              </div> -->
+              <input type="submit" value="SIGN UP" name="subscribe" id="mc-embedded-subscribe" class="col-xs-5 col-sm-3 button btn btn-primary btn-lg">
+
+              <div id="mce-responses" class="col-sm-9 col-sm-offset-1">
+                <br>
+                <div class="response alert alert-warning alert-dismissible fade in" id="mce-error-response" style="display:none"></div>
+                <div class="response alert alert-success alert-dismissible fade in" id="mce-success-response" style="display:none"></div>
+              </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;"><input type="text" name="b_cb2f7389d977d4d8f30d06186_a0b7c61d62" tabindex="-1" value=""></div>
+
+            </div>
+          </form>
+        </div>
+
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+        <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+        <!--End mc_embed_signup-->
         <div class="spacing40"></div>
       </div>
     </div>
   </div>
 </div>
-
-                <!-- Begin MailChimp Signup Form -->
-<!--                 <div id="mc_embed_signup">
-                  <form action="//gotrysome.us10.list-manage.com/subscribe/post?u=cb2f7389d977d4d8f30d06186&amp;id=a0b7c61d62" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll">
-                      <div class="mc-field-group col-sm-5 col-sm-offset-2 col-xs-7">
-                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email">
-                      </div>
-                    <!- -
-                    <div class="mc-field-group">
-                      <label for="mce-FNAME">First Name </label>
-                      <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-                    </div>
-                    <div class="mc-field-group">
-                      <label for="mce-LNAME">Last Name </label>
-                      <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-                    </div> - ->
-                    <input type="submit" value="SIGN UP NOW" name="subscribe" id="mc-embedded-subscribe" class="col-xs-5 col-sm-3 button btn btn-primary btn-lg">
-
-                    <div id="mce-responses" class="col-sm-9 col-sm-offset-1">
-                      <br>
-                      <div class="response alert alert-warning alert-dismissible fade in" id="mce-error-response" style="display:none"></div>
-                      <div class="response alert alert-success alert-dismissible fade in" id="mce-success-response" style="display:none"></div>
-                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;"><input type="text" name="b_cb2f7389d977d4d8f30d06186_a0b7c61d62" tabindex="-1" value=""></div>
-
-                  </div>
-                </form>
-
-                <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-                <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script> -->
-                <!--End mc_embed_signup-->
 
 <div id="about" class="content bright-bg">
   <div class="container">
@@ -133,7 +114,7 @@ layout: default
         </p>
         <p>
           Come explore a world of high quality food and beauty products for free.<br>
-          <a href="#">#Organic</a>, <a href="#">#GlutenFree</a>, <a href="#">#NonGMO</a>, <a href="#">#Vegan</a>, <a href="#">#Kosher</a> etc.
+          <a href="#">#Organic</a>, <a href="#">#GlutenFree</a>, <a href="#">#NonGMO</a>, <a href="#">#Vegan</a>, <a href="#">#Kosher</a> ... and much more.
         </p>
         <!-- <div class="spacing40"></div> -->
       </div><!--/.col-md-8-->
@@ -145,7 +126,7 @@ layout: default
   <div class="bg-mask"></div>
   <div class="para-img"></div>
   <div class="container big-text">
-    <h3>Try before you buy!</h3>
+    <h3>Open your mind - close your wallet</h3>
     <p>We want you to have the best food and beauty products.</p>
     <p>And we want you to buy only the things you love.
     </p>
@@ -198,8 +179,8 @@ layout: default
 
       <div class="col-md-3 col-sm-6">
         <div class="video-item" data-toggle="modal" data-target="#video4">
-          <img alt="video" class="img-responsive" src="images/videos/video4.png">
-          <p>How we can eat our landscapes</p>
+          <img alt="video" class="img-responsive" src="images/videos/video4.jpg">
+          <p>The Organic Effect</p>
           <div class="player-icon">
             <i class="fa fa-play-circle-o fa-3x"></i>
           </div>
@@ -269,10 +250,10 @@ layout: default
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close pull-right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">How we can eat our landscapes</h4>
+        <h4 class="modal-title" id="myModalLabel">The Organic Effect</h4>
       </div>
       <div class="modal-body">
-        <iframe src="https://embed-ssl.ted.com/talks/pam_warhurst_how_we_can_eat_our_landscapes.html" width="854" height="480" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oB6fUqmyKC8" frameborder="0" allowfullscreen></iframe>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

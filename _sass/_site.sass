@@ -29,31 +29,48 @@ p
   font-size: 16px
 
 .slider-mask
-  // background-color: transparent
-  background-color: rgba(20, 20, 20, 0.2)
+  background-color: transparent
+  // background-color: rgba(20, 20, 20, 0.2)
   // background-color: rgba(255, 255, 255, 0.2)
 
 .caption-box
-  color: #fff
+
+  // @include media-max($screen-lg-min)
+  //   background: green
+  // @include media-max($screen-md-min)
+  //   background: yellow
+  padding: 35% 0 15% 0
+  @include media-min($screen-sm-min)
+    padding: 20% 0
+
+  .round-thing
+    width: 500px
+    height: 500px
+    border-radius: 500px
+
+  .caption-content
+    @include media-min($screen-sm-min)
+      margin-top: -390px
 
   h3
     padding: 20px
     text-transform: none
     font-size: 42px
-    line-height: 30px
+    line-height: 42px
     font-weight: 400
     letter-spacing: 0.04em
-    text-shadow: 0px 0px 3px #333
-    // color: #1F1F1F
+    // text-shadow: 0px 0px 3px #333
+    color: #1F1F1F
+    margin-top: 0
 
 
   p
     font-weight: 200
-    // color: #1F1F1F
+    color: #1F1F1F
     padding: 0 20px 20px 20px
     letter-spacing: 1px
     text-transform: none
-    text-shadow: 0px 0px 3px #333
+    // text-shadow: 0px 0px 3px #333
     margin: auto
     &.highlight
       font-size: 18px
@@ -76,6 +93,12 @@ p
 
 .trans-bg
   background-color: rgba(255, 255, 255, 0.75)
+
+.trans-bg-sm
+  @include media-max($screen-sm-min)
+    background-color: rgba(255, 255, 255, 0.75)
+
+
 
 .dark-bg
   background-color: #1F1F1F
@@ -146,3 +169,18 @@ span.break-mobile-only
 @include media-min($screen-md-min)
   span.break-mobile-only
     display: none
+
+#resDebug
+  position: absolute
+  height: 5px
+  top: 0
+  left: 0
+  width: 100%
+  background: red
+  z-index: 1000
+  @include media-max($screen-lg-min)
+    background: green
+  @include media-max($screen-md-min)
+    background: yellow
+  @include media-max($screen-sm-min)
+    background: orange
