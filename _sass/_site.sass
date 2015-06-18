@@ -1,5 +1,8 @@
+//Colors
+$text-green: rgb(35, 141, 130)
+
 h1, h2, h3, h4, h5, h6
-  color: #1F1F1F
+  color: $text-green //#1F1F1F
   &.bright
     color: #dfdfdf
 
@@ -8,9 +11,13 @@ p
   margin: 0 0 15px
   line-height: 1.5
 
+.text-green
+  color: $text-green
+
 .logo
-  margin-top: 28px
-  width: 250px
+  display: block
+  margin: 28px auto
+  width: 185px
   transition: all 0.5s ease-out 0s
 
 .shrink
@@ -28,6 +35,9 @@ p
 .sub-title
   font-size: 16px
 
+.content
+  padding: 40px 0
+
 .slider-mask
   background-color: transparent
   // background-color: rgba(20, 20, 20, 0.2)
@@ -41,11 +51,11 @@ p
   //   background: yellow
   padding: 35% 0 15% 0
   @include media-min($screen-sm-min)
-    padding: 17% 0 3%
+    padding: 19% 0 3%
   // @include media-min($screen-md-min)
   //   padding: 15% 0
   @include media-min($screen-lg-min)
-    padding: 13% 0 0
+    padding: 17% 0 3%
 
   .round-thing
     width: 500px
@@ -56,10 +66,10 @@ p
     @include media-min($screen-sm-min)
       // margin-top: -390px
 
-  h3
-    padding: 20px
+  h1
+    padding: 30px 0 10px
     text-transform: none
-    font-size: 42px
+    font-size: 32px
     line-height: 42px
     font-weight: 400
     letter-spacing: 0.04em
@@ -144,11 +154,12 @@ p
 //   background-image: url("../images/bg/grafitti.jpg")
 
 .btn-primary
-  background-color: #228D12
-  border-color: darken(#228D12, 10%)
+  $btn-color: $text-green
+  background-color: $btn-color // #228D12
+  border-color: darken($btn-color, 10%)
   &:hover
-    background-color: darken(#228D12, 10%)
-    border-color: darken(#228D12, 15%)
+    background-color: darken($btn-color, 10%)
+    border-color: darken($btn-color, 15%)
   &.upper
     text-transform: uppercase
 
@@ -162,6 +173,12 @@ p
     left: 90px
     color: #fdfdfd
     text-shadow: 0px 0px 3px #333
+
+#journey
+  .icon
+    text-align: right
+    .fa
+      margin-top: 25px
 
 
 span.break-mobile-only
