@@ -3,9 +3,9 @@ site_name: "Trysome"
 title: "Open your mind! Go ahead, Trysome!"
 email: "rfk@gotrysome.com"
 description: > # this means to ignore newlines until next symbol
-  Trysome gives you mindfully produced high quality food and beauty products
+  Trysome gives you responsibly produced high quality food and beauty products
 og_description: >
-  Trysome gives you mindfully produced high quality food and beauty products. It´s easy and FREE. So if you care about the food you consume and the products you slather on our skin, come join us!
+  Trysome gives you responsibly produced high quality food and beauty products. It´s easy and FREE. So if you care about the food you consume and the products you slather on our skin, come join us!
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.gotrysome.com" # the base hostname & protocol for your site
 twitter_username: trysome
