@@ -18,5 +18,5 @@ sass:
   style: :compressed
   sass_dir: _sass
 
-gems: ['kramdown']
+gems: ['kramdown', 'jekyll-redirect-from']
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
