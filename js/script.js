@@ -82,7 +82,7 @@
 
 
     // Video responsive
-    $("body").fitVids();
+    // $("body").fitVids();
 
 
 
