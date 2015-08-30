@@ -1,3 +1,10 @@
+# Top section (see also "_includes/sections/top.md")
+photo_credit: Kur Organic Superfoods
+
+# How it works section
+section2:
+  title: "How it works"
+
 # Site settings
 site_name: "Trysome"
 title: "Try before you buy! Go ahead, TrySome!"

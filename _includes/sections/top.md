@@ -1,5 +1,4 @@
-Try before you buy
-==================
+# Try before you buy...
 
 We give you products to try for free\\
 and you give us feedback in return

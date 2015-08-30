@@ -12,307 +12,273 @@ layout: default
       <div class="caption-box">
         <div class="container">
           <div class="row">
-            <div class="caption-content col-xs-10 col-xs-offset-1 col-md-5 col-md-offset-0 trans-bg">
-              {% markdown sections/top.md %}
+            <div class="caption-content col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0 trans-bg" markdown="1">
+              {% include sections/top.md %}
             </div>
-            <div class="col-xs-10 col-xs-offset-1 col-md-5 col-md-offset-0">
+            <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0">
               <iframe width="100%" style="height: 388px" src="https://www.youtube.com/embed/2jwaMJrwoho" frameborder="0" allowfullscreen></iframe>
             </div>
-
-            <div class="rewards col-xs-10 col-xs-offset-1 col-md-2 col-md-offset-0 white-bg">
-              <h5>Products you can try when we launch</h5>
-              <div class="row" href="">
-                <a href="http://barnana.com/" target="_blank">
-                  <div class="col-md-6">
-                    <img src="images/rewards/barnana.png" class="img-responsive">
-                  </div>
-                  <div class="col-md-6">
-                    <p>Barnana</p>
-                  </div>
-                </a>
-                <div class="col-md-12"><hr></div>
-                <a href="http://www.florahealth.com/product_categories_usa.cfm?category_id=6" target="_blank">
-                  <div class="col-md-6">
-                    <img src="images/rewards/udus-choice.jpg" style="width: 60%; margin-left: 15%" class="img-responsive">
-                  </div>
-                  <div class="col-md-6">
-                    <p>Udo's Choice</p>
-                  </div>
-                </a>
-                <div class="col-md-12"><hr></div>
-                <a href="http://kurfood.com/" target="_blank">
-                  <div class="col-md-6">
-                    <img src="images/rewards/kur-bar.jpg" class="img-responsive">
-                  </div>
-                  <div class="col-md-6">
-                    <p>Kur snackbar</p>
-                  </div>
-                </a>
-                <div class="clearfix"></div>
-              </div>
-
-
-            </div>
-
+          </div>
+          <div class="row">
             <div class="col-xs-12">
               <div class="text-center"><i class="fa fa-angle-down fa-4x"></i></div>
             </div>
+          </div>
+        </div><!--/.container-->
+        <small class="photo-credit">{{ site.photo_credit }}</small>
+      </div><!--/.caption-box-->
+    </div><!--/.slider1-->
+  </div><!--/.slider-->
+</div><!--/home-->
+<!--HOME END-->
 
-          </div><!--/.container-->
-          <small class="photo-credit">Photo: Kur Organic Superfoods</small>
-        </div><!--/.caption-box-->
-      </div><!--/.slider1-->
-    </div><!--/.slider-->
-  </div><!--/home-->
-  <!--HOME END-->
+<div id="journey" class="content grey-bg">
 
-  <div id="journey" class="content grey-bg">
-
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 align-center">
-          <h2>How it works</h2>
-          <div class="liner"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 align-center">
+        <h2>{{ site.section2.title }}</h2>
+        <div class="liner"></div>
+      </div>
+      <div class="col-md-3">
+        <div class="col-md-6">
+          <img src="images/user-journey/TS_step1.png">
         </div>
-        <div class="col-md-3">
-          <div class="col-md-6">
-            <img src="images/user-journey/TS_step1.png">
-          </div>
-          <div class="col-md-6 icon">
-            <i class="fa fa-long-arrow-right fa-3x text-green hidden-xs hidden-sm"></i>
-          </div>
-          <div class="col-md-12">
-            <h3>Create your profile</h3>
-            <p>Based on your profile we will introduce you to a host of interesting products.</p>
-          </div>
+        <div class="col-md-6 icon">
+          <i class="fa fa-long-arrow-right fa-3x text-green hidden-xs hidden-sm"></i>
         </div>
-        <div class="col-md-3">
-          <div class="col-md-6">
-            <img src="images/user-journey/TS_step2.png">
-          </div>
-          <div class="col-md-6 icon">
-            <i class="fa fa-long-arrow-right fa-3x text-green hidden-xs hidden-sm"></i>
-          </div>
-          <div class="col-md-12">
-            <h3>Get credit and choose away</h3>
-            <p>Each month you get new credit on your account to spend on the products you would like to explore. No questions asked. Choose away - it’s on us!</p>
-          </div>
+        <div class="col-md-12">
+          <h3>Create your profile</h3>
+          <p>Based on your profile we will introduce you to a host of interesting products.</p>
         </div>
-        <div class="col-md-3">
-          <div class="col-md-6">
-            <img src="images/user-journey/TS_step3.png">
-          </div>
-          <div class="col-md-6 icon">
-            <i class="fa fa-long-arrow-right fa-3x text-green hidden-xs hidden-sm"></i>
-          </div>
-          <div class="col-md-12">
-            <h3>Try your products</h3>
-            <p>Place your order and your products will be delivered right to your door.</p>
-          </div>
+      </div>
+      <div class="col-md-3">
+        <div class="col-md-6">
+          <img src="images/user-journey/TS_step2.png">
         </div>
-        <div class="col-md-3">
-          <div class="col-md-6">
-            <img src="images/user-journey/TS_step4.png">
-          </div>
-          <div class="col-md-6 icon">
-            <i class="fa fa-check fa-3x text-green hidden-xs hidden-sm"></i>
-          </div>
-          <div class="col-md-12">
-            <h3>Share your thoughts</h3>
-            <p>We thrive on feedback! Share your thoughts on our products, and we will give you more credit to spend.</p>
-          </div>
+        <div class="col-md-6 icon">
+          <i class="fa fa-long-arrow-right fa-3x text-green hidden-xs hidden-sm"></i>
+        </div>
+        <div class="col-md-12">
+          <h3>Get credit and choose away</h3>
+          <p>Each month you get new credit on your account to spend on the products you would like to explore. No questions asked. Choose away - it’s on us!</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="col-md-6">
+          <img src="images/user-journey/TS_step3.png">
+        </div>
+        <div class="col-md-6 icon">
+          <i class="fa fa-long-arrow-right fa-3x text-green hidden-xs hidden-sm"></i>
+        </div>
+        <div class="col-md-12">
+          <h3>Try your products</h3>
+          <p>Place your order and your products will be delivered right to your door.</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="col-md-6">
+          <img src="images/user-journey/TS_step4.png">
+        </div>
+        <div class="col-md-6 icon">
+          <i class="fa fa-check fa-3x text-green hidden-xs hidden-sm"></i>
+        </div>
+        <div class="col-md-12">
+          <h3>Share your thoughts</h3>
+          <p>We thrive on feedback! Share your thoughts on our products, and we will give you more credit to spend.</p>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <div id="about" class="content bright-bg">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 align-center col-md-offset-2">
-          <h2 class="head-title">Do you care?</h2>
-          <p>
-            We believe that more and more people share our concerns about the choices we as consumers make. Our choices have huge consequences on our bodies and the environment. Yet, we don’t always take our time to address these consequences in our busy everyday lives.
-          </p>
-          <p>
-            At Trysome we do the hard work for you to make sure the product quality meet our high standards. Now all you have to do is decide which food and beauty products are right for you, while still being in tune with the planet.
-          </p>
-          <p>
-            In sum, we seek to engage and inspire you to join us in changing the world by changing the way we consume. Come try before you buy.
-          </p>
-          <div class="liner"></div>
-          <p>
-            Later in the year, this little online oasis will turn into a marketplace for mindfully produced quality food and beauty products.
-          </p>
-          <p>
-            Come explore a world of high quality food and beauty products for free.<br>
-            <a href="#">#Organic</a>, <a href="#">#GlutenFree</a>, <a href="#">#NonGMO</a>, <a href="#">#Vegan</a>, <a href="#">#Kosher</a> ... and much more.
-          </p>
-          <!-- <div class="spacing40"></div> -->
-        </div>
-      </div><!--/.row-->
-    </div><!--/.container-->
-  </div><!--/about-->
+<div id="about" class="content bright-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 align-center col-md-offset-2">
+        <h2 class="head-title">Do you care?</h2>
+        <p>
+          We believe that more and more people share our concerns about the choices we as consumers make. Our choices have huge consequences on our bodies and the environment. Yet, we don’t always take our time to address these consequences in our busy everyday lives.
+        </p>
+        <p>
+          At Trysome we do the hard work for you to make sure the product quality meet our high standards. Now all you have to do is decide which food and beauty products are right for you, while still being in tune with the planet.
+        </p>
+        <p>
+          In sum, we seek to engage and inspire you to join us in changing the world by changing the way we consume. Come try before you buy.
+        </p>
+        <div class="liner"></div>
+        <p>
+          Later in the year, this little online oasis will turn into a marketplace for mindfully produced quality food and beauty products.
+        </p>
+        <p>
+          Come explore a world of high quality food and beauty products for free.<br>
+          <a href="#">#Organic</a>, <a href="#">#GlutenFree</a>, <a href="#">#NonGMO</a>, <a href="#">#Vegan</a>, <a href="#">#Kosher</a> ... and much more.
+        </p>
+        <!-- <div class="spacing40"></div> -->
+      </div>
+    </div><!--/.row-->
+  </div><!--/.container-->
+</div><!--/about-->
 
-  <div class="bg bg1 clearfix">
-    <div class="bg-mask"></div>
-    <div class="para-img"></div>
-    <div class="container big-text">
-      <h3>Open your mind - close your wallet</h3>
-      <p>We want you to have the best food and beauty products in the world.</p>
-      <p>And we want you to buy only the items you love.
-      </p>
-      <p>That's why you can try products here, before you buy them.</p>
-      <div class="liner"></div>
-      <div class="clearboth"></div>
-      <i class="fa fa-heart-o"></i>
-    </div><!--/.big-text-->
-  </div><!--/.bg-->
+<div class="bg bg1 clearfix">
+  <div class="bg-mask"></div>
+  <div class="para-img"></div>
+  <div class="container big-text">
+    <h3>Open your mind - close your wallet</h3>
+    <p>We want you to have the best food and beauty products in the world.</p>
+    <p>And we want you to buy only the items you love.
+    </p>
+    <p>That's why you can try products here, before you buy them.</p>
+    <div class="liner"></div>
+    <div class="clearboth"></div>
+    <i class="fa fa-heart-o"></i>
+  </div><!--/.big-text-->
+</div><!--/.bg-->
 
-  <div id="video" class="content align-center grey-bg">
-    <div class="container">
-      <div class="row">
+<div id="video" class="content align-center grey-bg">
+  <div class="container">
+    <div class="row">
 
-        <h2>Check out some of our inspirations</h2>
-        <p><div class="liner"></div></p>
-        <!--video list start-->
-        <div class="col-md-3 col-sm-6">
-          <div class="video-item" data-toggle="modal" data-target="#video1">
-            <img alt="video" class="img-responsive" src="images/videos/video1.png">
-            <p>Sustainia Award Finalists 2014</p>
-            <div class="player-icon">
-              <i class="fa fa-play-circle-o fa-3x"></i>
-            </div>
-            <div class="spacing40"></div>
+      <h2>Check out some of our inspirations</h2>
+      <p><div class="liner"></div></p>
+      <!--video list start-->
+      <div class="col-md-3 col-sm-6">
+        <div class="video-item" data-toggle="modal" data-target="#video1">
+          <img alt="video" class="img-responsive" src="images/videos/video1.png">
+          <p>Sustainia Award Finalists 2014</p>
+          <div class="player-icon">
+            <i class="fa fa-play-circle-o fa-3x"></i>
           </div>
+          <div class="spacing40"></div>
         </div>
+      </div>
 
-        <div class="col-md-3 col-sm-6">
-          <div class="video-item" data-toggle="modal" data-target="#video2">
-            <img alt="video" class="img-responsive" src="images/videos/video2.png">
-            <p>The Kur Bar<br>– Simply Scandinavian</p>
-            <div class="player-icon">
-              <i class="fa fa-play-circle-o fa-3x"></i>
-            </div>
-            <div class="spacing40"></div>
+      <div class="col-md-3 col-sm-6">
+        <div class="video-item" data-toggle="modal" data-target="#video2">
+          <img alt="video" class="img-responsive" src="images/videos/video2.png">
+          <p>The Kur Bar<br>– Simply Scandinavian</p>
+          <div class="player-icon">
+            <i class="fa fa-play-circle-o fa-3x"></i>
           </div>
+          <div class="spacing40"></div>
         </div>
+      </div>
 
-        <div class="col-md-3 col-sm-6">
-          <div class="video-item" data-toggle="modal" data-target="#video3">
-            <img alt="video" class="img-responsive" src="images/videos/video3.png">
-            <p>Sustainia - 100 Great Ideas</p>
-            <div class="player-icon">
-              <i class="fa fa-play-circle-o fa-3x"></i>
-            </div>
-            <div class="spacing40"></div>
+      <div class="col-md-3 col-sm-6">
+        <div class="video-item" data-toggle="modal" data-target="#video3">
+          <img alt="video" class="img-responsive" src="images/videos/video3.png">
+          <p>Sustainia - 100 Great Ideas</p>
+          <div class="player-icon">
+            <i class="fa fa-play-circle-o fa-3x"></i>
           </div>
+          <div class="spacing40"></div>
         </div>
+      </div>
 
-        <div class="col-md-3 col-sm-6">
-          <div class="video-item" data-toggle="modal" data-target="#video4">
-            <img alt="video" class="img-responsive" src="images/videos/video4.jpg">
-            <p>The Organic Effect</p>
-            <div class="player-icon">
-              <i class="fa fa-play-circle-o fa-3x"></i>
-            </div>
-            <div class="spacing40"></div>
+      <div class="col-md-3 col-sm-6">
+        <div class="video-item" data-toggle="modal" data-target="#video4">
+          <img alt="video" class="img-responsive" src="images/videos/video4.jpg">
+          <p>The Organic Effect</p>
+          <div class="player-icon">
+            <i class="fa fa-play-circle-o fa-3x"></i>
           </div>
+          <div class="spacing40"></div>
         </div>
-        <!--video list end-->
+      </div>
+      <!--video list end-->
 
-      </div><!--/.row-->
-    </div><!--/.container-->
-  </div><!--/video-->
+    </div><!--/.row-->
+  </div><!--/.container-->
+</div><!--/video-->
 
-  <!-- Modals -->
-  <div class="modal fade" id="video1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close pull-right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Sustainia Award Finalists 2014</h4>
-        </div>
-        <div class="modal-body">
-          <iframe src="https://player.vimeo.com/video/110195568?byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
+<!-- Modals -->
+<div class="modal fade" id="video1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close pull-right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Sustainia Award Finalists 2014</h4>
+      </div>
+      <div class="modal-body">
+        <iframe src="https://player.vimeo.com/video/110195568?byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
+</div>
 
-  <div class="modal fade" id="video2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close pull-right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">The Kur Bar – Simply Scandinavian</h4>
-        </div>
-        <div class="modal-body">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/jQyYzPjYl3s" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
+<div class="modal fade" id="video2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close pull-right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">The Kur Bar – Simply Scandinavian</h4>
+      </div>
+      <div class="modal-body">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jQyYzPjYl3s" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
+</div>
 
-  <div class="modal fade" id="video3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close pull-right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Sustainia - 100 Great Ideas</h4>
-        </div>
-        <div class="modal-body">
-          <iframe src="https://player.vimeo.com/video/60652130?byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
+<div class="modal fade" id="video3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close pull-right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Sustainia - 100 Great Ideas</h4>
+      </div>
+      <div class="modal-body">
+        <iframe src="https://player.vimeo.com/video/60652130?byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
+</div>
 
-  <div class="modal fade" id="video4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close pull-right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">The Organic Effect</h4>
-        </div>
-        <div class="modal-body">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/oB6fUqmyKC8" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
+<div class="modal fade" id="video4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close pull-right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">The Organic Effect</h4>
+      </div>
+      <div class="modal-body">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oB6fUqmyKC8" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
-  <!-- /Modals -->
+</div>
+<!-- /Modals -->
 
-  <div id="signup" class="content dark-bg">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-9 align-center col-md-offset-1">
-          <h3 class="bright">Join us! Open your mind. Try something new.</h3>
-          <p class="sub-title">
-            Be the change! Help manufacturers of responsibly made products<br>
-             – your feedback is invaluable.
-          </p>
-            <div class="liner"></div>
+<div id="signup" class="content dark-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 align-center col-md-offset-1">
+        <h3 class="bright">Join us! Open your mind. Try something new.</h3>
+        <p class="sub-title">
+          Be the change! Help manufacturers of responsibly made products<br>
+          – your feedback is invaluable.
+        </p>
+        <div class="liner"></div>
 
-            <!-- Begin MailChimp Signup Form -->
-            <div id="mc_embed_signup">
-              <form action="//gotrysome.us10.list-manage.com/subscribe/post?u=cb2f7389d977d4d8f30d06186&amp;id=a0b7c61d62" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <div id="mc_embed_signup_scroll">
-                  <div class="mc-field-group col-sm-5 col-sm-offset-2 col-xs-7">
-                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email">
-                  </div>
+        <!-- Begin MailChimp Signup Form -->
+        <div id="mc_embed_signup">
+          <form action="//gotrysome.us10.list-manage.com/subscribe/post?u=cb2f7389d977d4d8f30d06186&amp;id=a0b7c61d62" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+              <div class="mc-field-group col-sm-5 col-sm-offset-2 col-xs-7">
+                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email">
+              </div>
               <!--
               <div class="mc-field-group">
                 <label for="mce-FNAME">First Name </label>
