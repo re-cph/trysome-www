@@ -12,11 +12,12 @@ layout: default
       <div class="caption-box">
         <div class="container">
           <div class="row">
-            <div class="caption-content col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0 trans-bg" markdown="1">
-              {% include sections/top.md %}
+            <div class="caption-content col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0 trans-bg">
+              {% capture topsection_md %}{% include sections/top.md %}{% endcapture %}
+              {{ topsection_md | markdownify }}
             </div>
             <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0">
-              <iframe width="100%" style="height: 388px" src="https://www.youtube.com/embed/2jwaMJrwoho" frameborder="0" allowfullscreen></iframe>
+              <iframe width="100%" style="height: 374px" src="https://www.youtube.com/embed/2jwaMJrwoho?autoplay=1" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
           <div class="row">
@@ -96,7 +97,7 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-md-8 align-center col-md-offset-2">
-        <h2 class="head-title">Do you care?</h2>
+        <h2 class="head-title">The incredible journey!</h2>
         <p>
           We believe that more and more people share our concerns about the choices we as consumers make. Our choices have huge consequences on our bodies and the environment. Yet, we don’t always take our time to address these consequences in our busy everyday lives.
         </p>
@@ -104,7 +105,7 @@ layout: default
           At Trysome we do the hard work for you to make sure the product quality meet our high standards. Now all you have to do is decide which food and beauty products are right for you, while still being in tune with the planet.
         </p>
         <p>
-          In sum, we seek to engage and inspire you to join us in changing the world by changing the way we consume. Come try before you buy.
+          In sum, we seek to engage and inspire you to join us on this journey to change the world by changing the way we consume. Come try before you buy.
         </p>
         <div class="liner"></div>
         <p>
@@ -112,26 +113,46 @@ layout: default
         </p>
         <p>
           Come explore a world of high quality food and beauty products for free.<br>
-          <a href="#">#Organic</a>, <a href="#">#GlutenFree</a>, <a href="#">#NonGMO</a>, <a href="#">#Vegan</a>, <a href="#">#Kosher</a> ... and much more.
+          <a href="#">#Organic</a>, <a href="#">#GlutenFree</a>, <a href="#">#NonGMO</a>, <a href="#">#Vegan</a>, <a href="#">#Kosher</a><a href="#">#FairTrade</a>, <a href="#">#Raw</a>... and much more.
         </p>
+        <p>Just <a href="#">#gotrysome</a></p>
         <!-- <div class="spacing40"></div> -->
       </div>
     </div><!--/.row-->
   </div><!--/.container-->
 </div><!--/about-->
 
+<div id="product-samples" class="content grey-bg" style="display: none">
+  <div class="container">
+    <div class="row">
+      <div class="spacing40"></div>
+      <div class="product-samples-body clearfix">
+
+        <div class="col-md-4 col-sm-6">
+          <a href="#">
+            <img src="images/product-samples/1.jpg" alt="">
+          </a><!--/.port-ajax-->
+          <div class="spacing30"></div>
+        </div><!--/.col-md-4-->
+
+      </div><!--/.product-samples-body-->
+    </div><!--/.row-->
+  </div><!--/.container-->
+</div><!--/.product-samples-->
+
 <div class="bg bg1 clearfix">
   <div class="bg-mask"></div>
   <div class="para-img"></div>
   <div class="container big-text">
     <h3>Open your mind - close your wallet</h3>
-    <p>We want you to have the best food and beauty products in the world.</p>
-    <p>And we want you to buy only the items you love.
-    </p>
+    <p>We want you to have the best food and beauty products in the world. And the best products for the world, environment, our bodies and the future</p>
+    <p>But we want you to buy only the items you love.</p>
     <p>That's why you can try products here, before you buy them.</p>
     <div class="liner"></div>
     <div class="clearboth"></div>
     <i class="fa fa-heart-o"></i>
+    <p><!-- spacer --></p>
+    <p>Get a TrySome membership and buy the products you love at wholesale prices</p>
   </div><!--/.big-text-->
 </div><!--/.bg-->
 
@@ -273,37 +294,27 @@ layout: default
         <div class="liner"></div>
 
         <!-- Begin MailChimp Signup Form -->
-        <div id="mc_embed_signup">
+        <div id="mc_embed_signup" class="row no-padding">
           <form action="//gotrysome.us10.list-manage.com/subscribe/post?u=cb2f7389d977d4d8f30d06186&amp;id=a0b7c61d62" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <div id="mc_embed_signup_scroll">
-              <div class="mc-field-group col-sm-5 col-sm-offset-2 col-xs-7">
+              <div class="mc-field-group col-sm-4 col-sm-offset-1 col-xs-7 no-side-padding">
                 <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email">
               </div>
-              <!--
-              <div class="mc-field-group">
-                <label for="mce-FNAME">First Name </label>
-                <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+              <div class="mc-field-group col-sm-3 col-xs-7 no-side-padding">
+                <input type="text" value="" name="ZIP" class="required zip" id="mce-ZIP" placeholder="Zip Code">
               </div>
-              <div class="mc-field-group">
-                <label for="mce-LNAME">Last Name </label>
-                <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-              </div> -->
-              <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="col-xs-5 col-sm-3 button btn btn-primary btn-lg">
-                <span class="visible-xs-* hidden-sm hidden-md hidden-lg">REGISTER</span>
-                <span class="hidden-xs">REGISTER NOW</span>
-              </button>
-
-              <div class="col-sm-3">
-                (it only takes 10 sec.)
+              <div class="mc-field-group col-xs-4 col-sm-4 text-left">
+                <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-primary btn-lg">
+                  <span class="visible-xs-* hidden-sm hidden-md hidden-lg">REGISTER</span>
+                  <span class="hidden-xs">SIGN UP</span>
+                </button>
               </div>
-
               <div id="mce-responses" class="col-sm-9 col-sm-offset-1">
                 <br>
                 <div class="response alert alert-warning alert-dismissible fade in" id="mce-error-response" style="display:none"></div>
                 <div class="response alert alert-success alert-dismissible fade in" id="mce-success-response" style="display:none"></div>
               </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
               <div style="position: absolute; left: -5000px;"><input type="text" name="b_cb2f7389d977d4d8f30d06186_a0b7c61d62" tabindex="-1" value=""></div>
-
             </div>
           </form>
         </div>
