@@ -16,7 +16,7 @@ BUY THEM at __WHOLESALE PRICES__
         <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email">
       </div>
       <div class="mc-field-group col-sm-3 col-xs-7 no-side-padding">
-        <input type="text" value="" name="ZIP" class="required zip" id="mce-ZIP" placeholder="Zip Code">
+        <input type="text" value="" name="MMERGE3" class="required" id="mce-MMERGE3">
       </div>
       <div class="mc-field-group col-xs-4 col-sm-4 text-left">
         <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-primary btn-lg">
@@ -34,8 +34,7 @@ BUY THEM at __WHOLESALE PRICES__
   </form>
 </div>
 
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-<script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='zip';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
 
 By joining TrySome, you’ll be supporting companies \\
