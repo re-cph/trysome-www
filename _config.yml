@@ -46,6 +46,17 @@ product_categories:
     css_class: "product-sample8"
 
 #Videos
+videos:
+  title: "Check out some of our inspirations"
+  items:
+  - title: "Sustainia Award Finalists 2014"
+    img_path: "videos/video1.png"
+  - title: "The Kur Bar<br>– Simply Scandinavian"
+    img_path: "videos/video2.png"
+  - title: "Sustainia - 100 Great Ideas"
+    img_path: "videos/video3.png"
+  - title: "The Organic Effect"
+    img_path: "videos/video4.png"
 
 
 #SIGNUP FORM (BOTTOM)
