@@ -2,8 +2,58 @@
 photo_credit: Kur Organic Superfoods
 
 # How it works section
-section2:
+journey:
   title: "How it works"
+
+  steps:
+  - title: "Create your profile"
+    icon: "long-arrow-right"
+    description: "Based on your profile we will introduce you to a host of interesting products."
+    img_path: "user-journey/TS_step1.png"
+  - title: "Get credit and choose away"
+    icon: "long-arrow-right"
+    description: "Each month you get new credit on your account to spend on the products you would like to explore. No questions asked. Choose away - it’s on us!"
+    img_path: "user-journey/TS_step2.png"
+  - title: "Try your products"
+    icon: "long-arrow-right"
+    description: "Place your order and your products will be delivered right to your door."
+    img_path: "user-journey/TS_step3.png"
+  - title: "Share your thoughts"
+    icon: "check"
+    description: "We thrive on feedback! Share your thoughts on our products, and we will give you more credit to spend."
+    img_path: "user-journey/TS_step4.png"
+
+#Product categories
+product_categories:
+  title: "This is just the beginning…"
+  sub_title: "Here is a taste of what TrySome wants you to try."
+  categories:
+  - title: "Cosmetics"
+    css_class: "product-sample1"
+  - title: "Skin Care"
+    css_class: "product-sample2"
+  - title: "Bath &amp; Body"
+    css_class: "product-sample3"
+  - title: "Babies &amp; Kids"
+    css_class: "product-sample4"
+  - title: "Health"
+    css_class: "product-sample5"
+  - title: "Beverages"
+    css_class: "product-sample6"
+  - title: "Snacks"
+    css_class: "product-sample7"
+  - title: "Groceries"
+    css_class: "product-sample8"
+
+#Videos
+
+
+#SIGNUP FORM (BOTTOM)
+section_signup:
+  title: "Join us! Open your mind. Try something new."
+  sub_title: "Be the change! Help manufacturers of responsibly made products<br>– your feedback is invaluable."
+  button_text_desktop: "SIGN UP"
+  button_text_mobile: "SIGN UP"
 
 # Site settings
 site_name: "Trysome"
