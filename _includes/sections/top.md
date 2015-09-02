@@ -16,7 +16,7 @@ BUY THEM at __WHOLESALE PRICES__
         <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email">
       </div>
       <div class="mc-field-group col-sm-3 col-xs-7 no-side-padding">
-        <input type="text" value="" name="MMERGE3" class="required" id="mce-MMERGE3">
+        <input type="text" value="" name="MMERGE3" class="required" id="mce-MMERGE3" placeholder="Zip Code">
       </div>
       <div class="mc-field-group col-xs-4 col-sm-4 text-left">
         <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-primary btn-lg">
