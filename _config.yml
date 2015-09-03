@@ -20,7 +20,7 @@ journey:
     img_path: "user-journey/TS_step3.png"
   - title: "Share your thoughts"
     icon: "check"
-    description: "We thrive on feedback! And we would love to hear your opinion, but its optional. No pressure ;-)
+    description: "We thrive on feedback! But its optional. No pressure ;-)
 Share your thoughts on our products, and we will give you more credit to spend."
     img_path: "user-journey/TS_step4.png"
 
