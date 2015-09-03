@@ -8,19 +8,20 @@ journey:
   steps:
   - title: "Create your profile"
     icon: "long-arrow-right"
-    description: "Based on your profile we will introduce you to a host of interesting products."
+    description: "Based on your profile we will introduce you to a host of interesting products you´ll love."
     img_path: "user-journey/TS_step1.png"
   - title: "Get credit and choose away"
     icon: "long-arrow-right"
-    description: "Each month you get new credit on your account to spend on the products you would like to explore. No questions asked. Choose away - it’s on us!"
+    description: "Each month you get more credit to spend on new products to explore. Choose away - it’s on us!"
     img_path: "user-journey/TS_step2.png"
   - title: "Try your products"
     icon: "long-arrow-right"
-    description: "Place your order and your products will be delivered right to your door."
+    description: "Place your order and your products delivered right to your doorstep."
     img_path: "user-journey/TS_step3.png"
   - title: "Share your thoughts"
     icon: "check"
-    description: "We thrive on feedback! Share your thoughts on our products, and we will give you more credit to spend."
+    description: "We thrive on feedback! And we would love to hear your opinion, but its optional. No pressure ;-)
+Share your thoughts on our products, and we will give you more credit to spend."
     img_path: "user-journey/TS_step4.png"
 
 #Product categories
