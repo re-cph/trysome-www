@@ -137,7 +137,7 @@ published: true
 
       {% for video in site.videos.items %}
         <div class="col-md-3 col-sm-6">
-          <div class="video-item" data-toggle="modal" data-target="#video1">
+          <div class="video-item" data-toggle="modal" data-target="#video{{ forloop.index + 1 }}">
             <img alt="video" class="img-responsive" src="images/{{ video.img_path }}">
             <p>{{ video.title }}</p>
             <div class="player-icon">
