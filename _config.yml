@@ -16,7 +16,7 @@ journey:
     img_path: "user-journey/TS_step2.png"
   - title: "Try your products"
     icon: "long-arrow-right"
-    description: "Place your order and your products delivered right to your doorstep."
+    description: "Place your order and get your products delivered right to your doorstep."
     img_path: "user-journey/TS_step3.png"
   - title: "Share your thoughts"
     icon: "check"
