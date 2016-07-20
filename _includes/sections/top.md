@@ -1,11 +1,8 @@
 # Be the change!
 
-Get healthy products for free.
-{:.highlight}
-
-Give us your feedback. \\
-Help make better products.
-{:.highlight}
+**Get** healthy products for free.
+**Give** us your feedback.
+**Help** make better products.
 
 {% include signup_form.html %}
 
