@@ -1,6 +1,5 @@
 # Better for you. Better for the planet.    
-**Give** us your feedback.  
-**Help** make better products.
+## **Give** us your feedback. **Help** make better products.
 
 {% include signup_form.html %}
 
