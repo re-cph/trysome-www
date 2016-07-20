@@ -1,4 +1,4 @@
-# **Get** healthy products for free. <br/>  
+# Better for you. Better for the planet.    
 **Give** us your feedback.  
 **Help** make better products.
 
