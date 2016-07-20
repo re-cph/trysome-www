@@ -8,7 +8,7 @@ journey:
   steps:
   - title: "Create your profile"
     icon: "long-arrow-right"
-    description: "Based on your profile we will introduce you to a host of interesting products you´ll love."
+    description: "Based on your profile we will introduce you to a host of great products we know you´ll love to try."
     img_path: "user-journey/TS_step1.png"
   - title: "Get credit and choose away"
     icon: "long-arrow-right"
@@ -18,7 +18,7 @@ journey:
     icon: "long-arrow-right"
     description: "Place your order and get your products delivered right to your doorstep."
     img_path: "user-journey/TS_step3.png"
-  - title: "Share your thoughts"
+  - title: "Share your thoughts!"
     icon: "check"
     description: "We thrive on feedback, and so do the folks who make the stuff.
 Share your thoughts and we'll give you more credit to spend!"
