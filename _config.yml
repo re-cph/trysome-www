@@ -48,7 +48,7 @@ product_categories:
 
 #Videos
 videos:
-  title: "Check out some of our inspirations"
+  title: "Check out some of our inspirations!"
   items:
   - title: "Sustainia Award Finalists 2014"
     img_path: "videos/video1.png"
@@ -62,8 +62,8 @@ videos:
 
 #SIGNUP FORM (BOTTOM)
 section_signup:
-  title: "Join us! Open your mind. Try something new."
-  sub_title: "Be the change! Help manufacturers of responsibly made products<br> Your feedback is invaluable."
+  title: "Join us! Try something new."
+  sub_title: "Be the change. Help manufacturers of responsibly made products.<br> Your feedback is invaluable."
   button_text_desktop: "SIGN UP"
   button_text_mobile: "SIGN UP"
 
