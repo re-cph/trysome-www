@@ -12,7 +12,7 @@ journey:
     img_path: "user-journey/TS_step1.png"
   - title: "Get credit and choose away"
     icon: "long-arrow-right"
-    description: "Each month you get more credit to spend on new products to explore. Choose away - it’s on us!"
+    description: "Each month you get credit to spend on new products to explore. Choose away - it’s on us!"
     img_path: "user-journey/TS_step2.png"
   - title: "Try your products"
     icon: "long-arrow-right"
