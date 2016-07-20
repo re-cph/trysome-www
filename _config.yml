@@ -35,16 +35,16 @@ product_categories:
     css_class: "product-sample8"
   - title: "Health"
     css_class: "product-sample5"
-  - title: "Babies &amp; Kids"
-    css_class: "product-sample4"
+  - title: "Groceries"
+    css_class: "product-sample6"
   - title: "Bath &amp; Body"
     css_class: "product-sample3"
   - title: "Skin Care"
     css_class: "product-sample2"
   - title: "Cosmetics"
     css_class: "product-sample1"
-  - title: "Groceries"
-    css_class: "product-sample6"
+  - title: "Babies and Kids"
+    css_class: "product-sample4"
 
 #Videos
 videos:
