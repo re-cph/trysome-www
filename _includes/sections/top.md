@@ -1,6 +1,6 @@
 # Be the change!
 
-Get healthy products for free. \\
+Get healthy products for free.
 {:.highlight}
 
 Give us your feedback. \\
