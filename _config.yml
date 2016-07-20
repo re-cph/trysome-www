@@ -40,11 +40,11 @@ product_categories:
   - title: "Health"
     css_class: "product-sample5"
   - title: "Beverages"
-    css_class: "product-sample6"
+    css_class: "product-sample8"
   - title: "Cosmetics"
     css_class: "product-sample1"
   - title: "Groceries"
-    css_class: "product-sample8"
+    css_class: "product-sample6"
 
 #Videos
 videos:
