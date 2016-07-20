@@ -27,10 +27,10 @@ If you share your thoughts we will give you more credit to spend!"
 #Product categories
 product_categories:
   title: "This is just the beginning…"
-  sub_title: "Here is a taste of what TrySome wants you to try."
+  sub_title: "Here is a taste of what you can try!"
   categories:
-  - title: "Cosmetics"
-    css_class: "product-sample1"
+  - title: "Snacks"
+    css_class: "product-sample7"
   - title: "Skin Care"
     css_class: "product-sample2"
   - title: "Bath &amp; Body"
