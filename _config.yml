@@ -26,8 +26,8 @@ Share your thoughts and we'll give you more credit to spend!"
 
 #Product categories
 product_categories:
-  title: "This is just the beginning…"
-  sub_title: "Here is a taste of what you can try!"
+  title: "And this is just the beginning…"
+  sub_title: "We're continually expanding things for you to try!"
   categories:
   - title: "Snacks"
     css_class: "product-sample7"
