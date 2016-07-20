@@ -1,11 +1,10 @@
-# Try before you buy
+# Be the change!
 
-__We give you responsibly made  \\
-products to TRY FOR FREE__
+Get healthy products for free. \\
 {:.highlight}
 
-If you LIKE THEM, you can \\
-BUY THEM at __WHOLESALE PRICES__
+Give us your feedback. \\
+Help make better products.
 {:.highlight}
 
 {% include signup_form.html %}
