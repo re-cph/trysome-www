@@ -1,6 +1,11 @@
-# **Get** healthy products for free.\\
-# **Give** us your feedback.\\
-# **Help** make better products.
+# 
+**Get** healthy products for free.
+
+#
+**Give** us your feedback.
+
+#
+**Help** make better products.
 
 {% include signup_form.html %}
 
