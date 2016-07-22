@@ -37,10 +37,6 @@ product_categories:
     css_class: "product-sample5"
   - title: "Bath &amp; Body"
     css_class: "product-sample3"
-  - title: "Skin Care"
-    css_class: "product-sample2"
-  - title: "Cosmetics"
-    css_class: "product-sample1"
 
 
 #Videos
