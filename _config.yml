@@ -35,8 +35,6 @@ product_categories:
     css_class: "product-sample8"
   - title: "Health"
     css_class: "product-sample5"
-  - title: "Groceries"
-    css_class: "product-sample6"
   - title: "Bath &amp; Body"
     css_class: "product-sample3"
   - title: "Skin Care"
