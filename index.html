@@ -93,32 +93,11 @@ published: true
   </div>
 </div>
 
-<div id="product-samples" class="bg bg1 clearfix">
-  <div class="bg-mask"></div>
-  <div class="para-img"></div>
-  <div class="container big-text">
-
-    <h2 class="white-text">{{ site.product_categories.title }}</h2>
-    <p class="highlight">{{ site.product_categories.sub_title }}</p>
-    <div class="row">
-      <div class="spacing40"></div>
-      <div class="product-samples-body clearfix">
-        {% for category in site.product_categories.categories %}
-          <div class="col-md-3 col-sm-6">
-            <img class="product-sample {{ category.css_class }}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-            <p>{{ category.title }}</p>
-
-            <div class="spacing30"></div>
-          </div><!--/.col-md-3-->
-        {% endfor %}
-
-      </div><!--/.product-samples-body-->
-    </div><!--/.row-->
-  </div><!--/.container-->
+<div id="product-samples" class="grey-bg">
+  <div class="sample sample-1"></div>
+  <div class="sample sample-2"></div>
+  <div class="sample sample-3"></div>
 </div><!--/.product-samples-->
-
-
-
 
 <div id="video" class="content align-center grey-bg">
   <div class="container">
