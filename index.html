@@ -13,8 +13,9 @@ published: true
       <div class="slider-mask"></div>
       <div class="caption-box">
         <div class="container">
-          <div class="row">            
-            <iframe width="100%" height="480px"  src="https://www.youtube.com/embed/2jwaMJrwoho?&theme=light&keyboard=1&autohide=1&modestbranding=1&fs=0&showinfo=0&rel=0&iv_load_policy=3"frameborder="0"></iframe>
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 intro-video-col">
+              <iframe width="100%" height="405px" src="https://www.youtube.com/embed/2jwaMJrwoho?&theme=light&keyboard=1&autohide=1&modestbranding=1&fs=0&showinfo=0&rel=0&iv_load_policy=3"frameborder="0"></iframe>
             </div>
           </div>
           <div class="row">
@@ -24,7 +25,7 @@ published: true
           </div>
         </div><!--/.container-->
         <small class="photo-credit">{{ site.photo_credit }}</small>
-      <div><!--/.caption-box-->
+      </div><!--/.caption-box-->
     </div><!--/.slider1-->
   </div><!--/.slider-->
 </div><!--/home-->
@@ -46,11 +47,9 @@ published: true
         </p>
 
         <div id="signup" class="content bright-bg">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-7 align-center col-md-offset-1">
-                {% include signup_form.html %}
-              </div>
+          <div class="row">
+            <div class="col-md-10 align-center col-md-offset-1">
+              {% include signup_form.html %}
             </div>
           </div>
         </div>
