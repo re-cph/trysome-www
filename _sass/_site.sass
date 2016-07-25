@@ -199,6 +199,52 @@ p
     color: #fdfdfd
     text-shadow: 0px 0px 3px #333
 
+#about
+  padding: 40px 0 20px 0
+
+#signup
+  &.bright-bg
+    padding: 40px 0 20px 0
+
+  &.dark-bg
+    input
+      font-size: 18px
+
+    button
+      font-size: 22px
+
+    input, button
+      height: 60px
+      margin: 32px 0 10px 0
+
+    #mc_embed_signup
+      padding-left: 10%
+
+    .join-title
+      font-size: 33px
+      margin: 25px auto 15px
+
+    .join-sub-title
+      font-size: 22px
+
+#partner-logos
+  .img-col
+    display: inline-block
+    vertical-align: top
+    width: 30%
+
+    .img-cell
+      height: 125px
+      line-height: 105px
+
+  .img-double-col
+    width: 20%
+    padding: 0 20px
+
+    .img-cell
+      height: 250px
+      line-height: 225px
+
 #journey
   .icon
     text-align: right
@@ -206,30 +252,26 @@ p
       margin-top: 25px
 
 #product-samples
-  .product-sample
-    width: 263px
-    height: 263px
-    background-size: cover
+  border-bottom: 1px solid black
+  padding: 5px 0 26px 0
+  font-size: 0
+
+  .sample
+    display: inline-block
     background-repeat: no-repeat
-    background-position: 50% 50%
+    background-size: cover
+    background-position: 50%
+    height: 485px
 
-    &.product-sample1
-      background-image: url("../images/product-samples/product1.jpg")
-    &.product-sample2
-      background-image: url("../images/product-samples/product2.jpg")
-    &.product-sample3
-      background-image: url("../images/product-samples/product3.jpg")
-    &.product-sample4
-      background-image: url("../images/product-samples/product4.jpg")
-    &.product-sample5
-      background-image: url("../images/product-samples/product5.jpg")
-    &.product-sample6
-      background-image: url("../images/product-samples/product6.jpg")
-    &.product-sample7
-      background-image: url("../images/product-samples/product7.jpg")
-    &.product-sample8
-      background-image: url("../images/product-samples/product8.jpg")
-
+    &.sample-1
+      width: 27%
+      background-image: url("../images/product-samples/sample1.jpg")
+    &.sample-2
+      width: 46%
+      background-image: url("../images/product-samples/sample2.jpg")
+    &.sample-3
+      width: 27%
+      background-image: url("../images/product-samples/sample3.jpg")
 
 span.break-mobile-only
   display: block
@@ -253,3 +295,16 @@ span.break-mobile-only
     background: yellow
   @include media-max($screen-sm-min)
     background: orange
+
+#footer
+  a
+    color: black
+    border-color: black
+    line-height: 35px
+
+  .email-link
+    font-size: 22px
+    border: 1px solid
+
+    .glyphicon-envelope
+      top: 4px

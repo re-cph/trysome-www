@@ -44,21 +44,24 @@ published: true
         <p><font size=4>
           We're seeking to <b>engage and inspire</b> you to join us on this journey to change the world by changing the way we consume. Now, go try some!
         </p>
-        
-   <div id="signup" class="content bright-bg">        
-  <div class="container">
-    <div class="row">
-      <div class="col-md-7 align-center col-md-offset-1">
-        
-       {% include signup_form.html %}
 
-      </div>
-    </div>
-  </div>
-
-          
+        <div id="signup" class="content bright-bg">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7 align-center col-md-offset-1">
+                {% include signup_form.html %}
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div><!--/.row-->
+
+    <div class="row">
+      <div class="col-md-10 align-center">
+        {% include partners.html %}
+      </div>
+    </div>
   </div><!--/.container-->
 </div><!--/about-->
 
@@ -90,32 +93,11 @@ published: true
   </div>
 </div>
 
-<div id="product-samples" class="bg bg1 clearfix">
-  <div class="bg-mask"></div>
-  <div class="para-img"></div>
-  <div class="container big-text">
-
-    <h2 class="white-text">{{ site.product_categories.title }}</h2>
-    <p class="highlight">{{ site.product_categories.sub_title }}</p>
-    <div class="row">
-      <div class="spacing40"></div>
-      <div class="product-samples-body clearfix">
-        {% for category in site.product_categories.categories %}
-          <div class="col-md-3 col-sm-6">
-            <img class="product-sample {{ category.css_class }}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-            <p>{{ category.title }}</p>
-
-            <div class="spacing30"></div>
-          </div><!--/.col-md-3-->
-        {% endfor %}
-
-      </div><!--/.product-samples-body-->
-    </div><!--/.row-->
-  </div><!--/.container-->
+<div id="product-samples" class="grey-bg">
+  <div class="sample sample-1"></div>
+  <div class="sample sample-2"></div>
+  <div class="sample sample-3"></div>
 </div><!--/.product-samples-->
-
-
-
 
 <div id="video" class="content align-center grey-bg">
   <div class="container">
@@ -214,12 +196,11 @@ published: true
 <div id="signup" class="content dark-bg">
   <div class="container">
     <div class="row">
-      <div class="col-md-9 align-center col-md-offset-1">
-        <h3 class="bright">{{ site.section_signup.title }}</h3>
-        <p class="sub-title">
+      <div class="col-md-12 align-center">
+        <h3 class="bright join-title">{{ site.section_signup.title }}</h3>
+        <p class="sub-title join-sub-title">
           {{ site.section_signup.sub_title }}
         </p>
-        <div class="liner"></div>
 
         {% include signup_form.html %}
 
